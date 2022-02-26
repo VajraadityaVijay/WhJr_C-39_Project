@@ -199,7 +199,7 @@ function reset() {
   kangaroo.visible = true;
   kangaroo.changeAnimation("running",
     kangaroo_running);
-  obstaclesGroup.Each();
+  obstaclesGroup.add(obstacle);
   shrubsGroup.destroyEach();
   score = 0;
 }
